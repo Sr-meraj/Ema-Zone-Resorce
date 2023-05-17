@@ -1,0 +1,45 @@
+:root {
+    --bg-color: #1C2B35;
+    --orange-color: #ff9900;
+    --white-color: #fff;
+    --blue40-color: #1c2b35b0;
+}
+
+header{
+    position: relative;
+    background-color: var(--bg-color);
+    color: var(--white-color);
+    padding: 0 1.4rem;
+}
+.nav-bar {
+    margin: 0 auto;
+    width: 100%;
+    /* Use percentage to make it responsive */
+    max-width: 1440px;
+    /* Set a maximum width */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .ema-nav a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 17px;
+    letter-spacing: .5px;
+
+    font-family: 'Lato';
+    margin-left: 20px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+    .nav-bar .ema-nav a {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,21 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cart-sidebar{
+    background-color: #ff9900;
+    padding: 0 1rem;
+}
+/* .shop-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 100px 5px;
+} */
+.shop-container {
+    gap: 40px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
