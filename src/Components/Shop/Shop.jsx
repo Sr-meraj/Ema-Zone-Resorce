@@ -13,6 +13,8 @@ const Shop = () => {
     const handelAddToCart = (id) => {
         const newCart = [...cart, id]
         setCart(newCart)
+        console.log(newCart);
+        console.log(products);
     }
     return (
         <div className='shop'>
