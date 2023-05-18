@@ -1,5 +1,4 @@
 .buttons {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     height: 150px;
@@ -9,6 +8,7 @@
     border: 6px !important;
     font-weight: 500 !important;
     font-family: poppins;
+    margin: 4rem 0 0 0;
 }
 .review-order {
     background: #FF9900;
