@@ -3,8 +3,12 @@
     grid-template-columns: 4fr 1fr;
 }
 .cart-sidebar{
-    background-color: #ff9900;
+    background-color: rgba(255, 153, 0, 0.3);
     padding: 0 1rem;
+}
+.cart-sidebar p {
+    font-size: 17px;
+    font-weight: 600;
 }
 /* .shop-container {
     display: flex;
