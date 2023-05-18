@@ -18,7 +18,7 @@ const Product = (props) => {
                 <h6 className='title'>{name}</h6>
                 <p>Price: ${price}</p>
                 <p style={{marginTop: '34px'}}>Manufacturer: {seller}</p>
-                <p>Manufacturer: {ratings}</p>
+                <p>Rating: {ratings} Star</p>
             </div>
             <button className="button" onClick={() => { handelAddToCart(props.product)}}>
                 Add to cart <FontAwesomeIcon icon={faShoppingCart} />
